@@ -1,5 +1,5 @@
 # Instructions
-1. Copy the file `template.md` to `<your github username>.md
+1. Copy the file `template.md` to `<your github username>.md`
 2. Open the new file in a text editor and answer the questions
 3. Commit the new file to your local git repo. Specifically:
     a. Stage the file (i.e., tell git you want this file in your next commit) with `git add xyz.md`
