@@ -23,3 +23,5 @@ Hardware:
       Hardware UUID: 16E92CB3-670E-514B-ACFF-C42E95DBB6A0
       Provisioning UDID: 00006040-001A40390E00801C
       Activation Lock Status: Enabled
+
+My favorite color is blue
