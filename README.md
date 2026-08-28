@@ -21,16 +21,33 @@ git remote -v # -v is verbose mode
 ```
 
 ## Exercise 1: a simple git add/commit/push
-1. Copy the file `template.md` to `<gh-username>.md` (just work in your local `main` branch, don't worry about creating a new branch).
+1. Copy the file `template.md` to `<gh-username>.md` (just work in your local `main` branch, don't worry about creating a new branch):
+```bash
+cp template.md <gh-username>.md
+```
 2. Open the new file in a text editor and answer the questions.
+```bash
+nano <gh-username>.md
+# (Answer the questions)
+```
 3. Commit the new file to your local git repo. Specifically:
     1. Stage the file (i.e., tell git you want this file in your next commit) with `git add <gh-username>.md`
     2. Do `git status` to see what happened.
     3. Commit the file (wrap up the staged files into a commit) with `git commit -m "type a log message"`)
     4. Do `git status` again to see what happened.
     5. Do `git log` to see your commit, now permanently recorded in the history of this branch.
+```
+git add <gh-username>.md
+git status
+git commit -m "Add <gh-username>.md"
+git status
+git log
+```
 4. Push the files to the remote repo on github.
-   1. `git push` (or `git push origin main` to be more explicit)
+```
+git push 
+# Or maybe 'git push origin main'
+```
 5. Check that you can see the updates on github.com (i.e. open a web browser and find the updated files). 
 
 If you can see the updates on github, then the instructor can see them, too. When we get to homework assignments, this counts as "turning in" the assignment. You can continue pushing more changes until the due date (or beyond, depending on the instructor). 
